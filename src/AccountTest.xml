@@ -1,0 +1,10 @@
+<suite name="Account Test Suite">
+    <test name="Account Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="userName" value="thorsel"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <classes>
+            <class name="TEST.AccountTest"></class>
+        </classes>
+    </test>
+</suite>
